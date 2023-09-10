@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#whatshap {
+  position: fixed;
+  text-align: right;
+  bottom: 20px;
+  z-index: 999;
+}
+
+#whatshap a {
+  text-decoration: none;
+  font-size: large;
+  color: green;
+  font-weight: 900;
+}
+
+#whatshap a:hover {
+  font-size: x-large;
+  font-weight: 900;
+  color: purple;
+}
+
+#fontcari {
+  position: absolute;
+  margin-left: 140px;
+  bottom: 30px;
+}
+
+#btncari {
+  padding-left: 50px;
+}
+
+#btncari button {
+  width: 130px;
+  background-color: rgb(1, 175, 38);
+  color: white;
+  font-weight: 500;
+}
+
+#container2 {
+  background-color: rgb(240, 245, 245);
+  height: 30px;
+  padding-top: 4px;
+  padding-left: 200px;
+  font-size: medium;
+}
+
+.fa1 i {
+  padding-left: 15px;
+  border-left: solid 1px rgb(202, 199, 204);
+  color: orange;
+}
+.fa2 i {
+  padding-left: 15px;
+  border-left: solid 1px rgb(202, 199, 204);
+  color: rgb(29, 188, 209);
+}
+.fa3 i {
+  padding-left: 15px;
+  border-left: solid 1px rgb(202, 199, 204);
+  color: red;
+}
+.fa4 i {
+  padding-left: 15px;
+  border-left: solid 1px rgb(202, 199, 204);
+  color: purple;
+}
+
+.isi {
+  padding-left: 100px;
+}
